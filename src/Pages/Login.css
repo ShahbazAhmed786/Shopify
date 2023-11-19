@@ -1,0 +1,90 @@
+.login-sinup{
+    width: 100%;
+    height:140vh;
+    background: #fce3fe;
+    padding-top: 100px;
+}
+.login{
+    width: 400px;
+    height: 600px;
+    background: white;
+    margin: auto;
+    padding:40px 60px;
+    /* box-shadow: 1px 5px 5px 3px #222; */
+}
+.login h1{
+    margin: 20px 100px;
+    font-size: 40px;
+}
+/* .login hr{
+    margin-left: 70px;
+    width: 250px;
+    height: 2px;
+    background-color: black;
+} */
+.login-field{
+    display: flex;
+    flex-direction: column;
+    gap:29px;
+    margin-top: 30px;
+
+}
+.login-field input{
+    height: 42px;
+    width: 100%;
+    padding-left: 20px;
+    border: 1px solid #c9c9c9;
+    outline:none;
+    color: #5c5c5c;
+    font-size: 18px;
+}
+.login-field button{
+    width: 250px;
+    height: 52px;
+    color: white;
+    background: #ff4141;
+    
+    margin-left: 50px;
+    border: none;
+    border-radius: 75px;
+    font-size: 22px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.login-singn{
+    
+    color: #5c5c5c;
+    font-size: 18px;
+    font-weight: 500;
+}
+.login-singn span{
+    color: #ff4141;
+    font-weight: 600;
+}
+.login-singn1{
+    margin-bottom: 45px;
+    color: #5c5c5c;
+    font-size: 18px;
+    font-weight: 500;
+}
+.login-singn1 span{
+    color: #ff4141;
+    font-weight: 600;
+}
+.login-check{
+    display: flex;
+    align-items: center;
+    color: #5c5c5c;
+    font-size: 18px;
+    font-weight: 500;
+}
+.login-check input{
+    height: 20px;
+    margin-left: -100px;
+    margin-top: -60px;
+}
+.login-check p{
+    margin-top: -40px;
+    margin-left: -90px;
+    width: 600px;
+}
